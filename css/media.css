@@ -1,0 +1,295 @@
+
+ /*----------------------------------------------------*/
+
+@media screen and (max-width: 1199px) {
+    
+    .big-invise {
+        display: none;
+    }
+    
+    .big-invise-black {
+        display: none;
+    }
+    .img-prototype {
+        display: none;
+    }
+    .prot-primer {
+    margin-top: 40px;
+    text-align: center;   
+}
+    .prot-primer {
+        text-align: center;
+    }
+    .zaholovok-prototype_center {
+        text-align: center;
+    }
+    .button-red {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    .pochemy_left{
+    }
+    .pochemy_left img {
+ display: none
+}
+    .big-invise-black2 {
+        display: none;
+    }
+    .pochemy_number {
+    position: relative;
+    text-align: center;
+    left: 0;
+    margin-bottom: -500px;
+    top: 0;
+        
+}
+    .pochemy_text{
+    text-align: center;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 100px;
+            display: block;
+}
+    .pochemy_right img {
+   display: none;
+}
+    .pochemy_right .pochemy_number {
+   position: relative;
+    text-align: center;
+    left: 0;
+    margin-bottom: -500px;
+}
+    .pochemy_right .pochemy_text{
+        display: block;
+        padding-bottom: 140px;
+                    display: block;
+
+}
+    .container_background_black_pochemy_black {
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+    .zaholovok-white_pod_kluch {
+        margin-top: 80px;
+    }
+    
+    .pod_cluch_block {
+    display: inline-block;
+    margin: 20px 50px;
+}
+    .about_img_none {
+    display: none;
+}
+
+    .about_text {
+        text-align: center;
+        max-width: 960px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+        display: block
+    }
+
+    
+    .about_icon {
+    text-align: center;    
+    }
+    
+    .about_icon p {
+    position: relative;
+    display: inline-block;
+       
+}
+
+.about_icon p img {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.about_icon_norm{
+    margin-left: 0px;
+}
+
+    .contact_map {
+    position: relative;
+margin:0 auto;
+    width: 580px;
+    height: 270px;
+    background-color: #dd2142;
+    margin-top: 80px;
+}
+    #map {
+        display: none;
+    }
+    
+    .social {
+    margin-left: 0;
+    text-align: center;
+        margin-top: -50px;
+}
+    
+    
+.web_designer_name{
+    position: relative;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.text-web-designer {
+    text-align: center;
+    margin-left: 0;
+    display: inline-block;
+  text-shadow:  0px 0px 15px rgba(255, 255, 255, 0.8);;
+
+}
+
+
+.text-name {
+    position: relative;
+    top: -195px;
+    left: 0px;
+    display: block;
+    text-align: center;
+}
+
+
+.text-designer {
+    position: relative;
+    font-size: 72px;
+    left: 0px;
+    top: -60px;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+
+.text-freelancer {
+    display: none;
+    }
+    
+    .menu {
+    margin-bottom: 120px;
+    }
+    
+    .button-red {
+    display: inline-block;
+
+}
+    
+    .button-contact {
+    display: inline-block;
+    margin-left: 30px;
+}
+    
+    .button-block {
+        text-align: center;
+    margin-top: 120px;
+    margin-left: 0;
+    position: relative;
+    top: -110px;
+    z-index: 3;
+}
+    .img_1screen {
+        display: none;
+    }
+    
+    .minus_margin {
+    padding-bottom: 0px;
+}
+
+    }
+    
+    
+    /*----------------------------------------------------*/
+    @media screen and (max-width: 480px) {
+    
+  .about_icon p { 
+    display: block;
+    margin-left: 0px;
+}
+    .about_icon p img {
+    margin-left: 0px;
+    margin-right: 20px;   
+   }
+      .contact_map {
+width: 100%;
+    height: 100%;
+              margin-top: 40px;
+
+}
+         
+    .button-contact {
+    display: inline-block;
+    margin-left: 0px;
+        margin-top: 20px;
+}
+        
+        
+     .contact_map ul{
+    text-align: center;
+    display: block;
+    margin-right: 0px;
+    width: 100%;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+        
+        
+           
+.web_designer_name{
+    position: relative;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.text-web-designer {
+font-size: 130px;
+      text-shadow: none;
+}
+
+.text-designer {
+    font-size: 48px;
+}
+      
+           
+.menu_modal li{
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -40px;
+}
+    
+  .block-add-vse {
+      margin-left: 0px;
+      }    
+.text-little {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+        .text-normal-black {
+            font-size: 38px;
+        }
+        
+        .text-normal {
+            font-size: 38px;
+        }
+        .pochemy_right .pochemy_number {
+    margin-bottom: -550px;
+            top: -35px;
+ }
+  .pochemy_number {
+    margin-bottom: -550px;
+      top: -10px;
+ }
+        .minus_margin {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+        
+        
+}
