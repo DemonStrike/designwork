@@ -27,7 +27,34 @@ font-family: 'ProximaNova-Bold';
 
 /*--------------------fonts------------------------------*/
 
-    
+
+
+/*--------------------modal------------------------------*/
+
+.menu {
+    background-color: #000;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    color: #fff;
+    z-index: 9999;
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+}
+
+.menu-active {
+    display: block;
+}
+
+
+/*--------------------modal------------------------------*/
+
+
+
+
+
 
 
 
@@ -143,6 +170,13 @@ html {
 .navigation {
     padding-top: 50px;
 }
+
+.navigation a{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+}
+
 
 nav {
     width: 50px;
