@@ -31,6 +31,11 @@ font-family: 'ProximaNova-Bold';
 
 /*--------------------modal------------------------------*/
 
+@keyframes menu {
+    0% {top: -3500px;}
+    100% {top: 0px;}
+}
+
 .menu {
     background-color: #000;
     position: fixed;
@@ -46,6 +51,7 @@ font-family: 'ProximaNova-Bold';
 
 .menu-active {
     display: block;
+    animation: menu 0.3s;
 }
 
 
@@ -191,7 +197,9 @@ nav {
 nav::before {
     content: "";
     display: block;
-    width: 45px;
+    width: 44px;
+    margin-left: auto;
+    margin-right: auto;
     height: 1px;
     background-color: #fff;
     margin-bottom: 20px;
@@ -205,8 +213,10 @@ nav:hover::before {
 nav::after {
     content: "";
     display: block;
-    width: 30px;
+    width: 29px;
     height: 1px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #fff;
     transition: all 0.3s cubic-bezier(1,-1.1,.18,2.01);
 }
@@ -255,6 +265,7 @@ nav:hover::after {
     font-size: 160px;
     margin-left: 450px;
     margin-top: 180px;
+    margin-bottom: 120px;
     line-height: 0;
     color: #1f2021;
     text-transform: uppercase;
@@ -262,7 +273,7 @@ nav:hover::after {
 
 .btn-block {
     margin-left: 730px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .btn-block a:first-child {
@@ -368,15 +379,15 @@ nav:hover::after {
 
 .block-win {
     text-align: center;
-    padding-bottom: 100px;
+    margin-bottom:  20px;
+    margin-top: 40px;
+    height: 500px;
     font-size: 0px;
 }
 
 .block-win-big {
     width: 300px;
-    height: 500px;
     display: inline-block;
-    background: red;
 }
 
 .block-win-big:hover {
@@ -385,24 +396,29 @@ nav:hover::after {
 
 .block-win-little {
     width: 260px;
-    height: 460px;
+    height: 400px;
     background-color: #202124;
     color: #fff;
     font-family: "ProximaNova-Light", "Arial", "sans-serif";
     font-size: 18px;
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     transition: all 0.3s;
 }
 
 .block-win-little:hover {
     width: 300px;
-    height: 500px;
+    height: 460px;
     margin: 0px;
+    background-color: #d01c3b;
 }
 
-.block-win-little-icon-1 {
-    background: #202124 url(../images/icon-add1.png) no-repeat;
-    background-position: 90px 110px;;
+.block-win-little:hover .block-win-little-hidden  {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 30px;
 }
 
 .block-win-little-title {
@@ -412,11 +428,19 @@ nav:hover::after {
 .block-win-little-hidden {
     font-size: 15px;
     margin-top: 60px;
-    color: #ffdee4;
+    display: none;
+}
+
+.block-win-little-title {
+    padding-top: 30px;
+}
+
+.block-win-little-img{
+    padding-top: 120px;
 }
 
 .block-win-little-hidden p{
-    border-bottom: 1px solid #d01f3e;
+    border-bottom: 1px solid #c61b39;
     padding-bottom: 16px;
 }
     
